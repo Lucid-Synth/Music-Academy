@@ -1,6 +1,6 @@
 # 🎵 Music Academy
 
-A modern and responsive **Music Academy website** built with **Next.js 14**, **Aceternity UI components**, and **Tailwind CSS v4**.
+A modern and responsive **Music Academy website** Landing page built with **Next.js 14**, **Aceternity UI components**, and **Tailwind CSS v4**.
 It provides a clean UI/UX for showcasing courses, instructors, and academy details with dark mode support.
 
 ---
@@ -29,37 +29,47 @@ It provides a clean UI/UX for showcasing courses, instructors, and academy detai
 
 ```
 nextjs/
+├── .gitignore
 ├── eslint.config.mjs
-├── next-env.d.ts
 ├── next.config.ts
+├── next-env.d.ts
 ├── package.json
+├── package-lock.json
 ├── postcss.config.mjs
 ├── README.md
 ├── tsconfig.json
+│
 ├── public/
 │   ├── file.svg
 │   ├── globe.svg
 │   ├── next.svg
 │   ├── vercel.svg
 │   └── window.svg
-├── src/
-│   ├── app/
-│   │   ├── favicon.ico
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   └── page.tsx
-│   ├── components/
-│   │   ├── HeroSection.tsx
-│   │   ├── Navbar.tsx
-│   │   └── ui/
-│   │       ├── moving-border.tsx
-│   │       ├── navbar-menu.tsx
-│   │       └── Spotlight.tsx
-│   ├── data/
-│   │   └── music_courses.json
-│   ├── lib/
-│   │   └── utils.ts
-│   └── utils/
+│
+└── src/
+    ├── app/
+    │   ├── favicon.ico
+    │   ├── globals.css
+    │   ├── layout.tsx
+    │   └── page.tsx
+    │
+    ├── components/
+    │   ├── FeturedCourses.tsx
+    │   ├── HeroSection.tsx
+    │   ├── Navbar.tsx
+    │   ├── WhyChooseUs.tsx
+    │   └── ui/
+    │       ├── background-gradient.tsx
+    │       ├── moving-border.tsx
+    │       ├── navbar-menu.tsx
+    │       ├── Spotlight.tsx
+    │       └── sticky-scroll-reveal.tsx
+    │
+    ├── data/
+    │   └── music_courses.json
+    │
+    └── lib/
+        └── utils.ts
 ```
 
 ---
